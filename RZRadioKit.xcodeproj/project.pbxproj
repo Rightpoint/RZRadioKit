@@ -77,6 +77,8 @@
 		68B92ECE12EA2CE200621B71 /* RZShoutcastAPITestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B92ECD12EA2CE200621B71 /* RZShoutcastAPITestCases.m */; };
 		68BB726113BACFAF008225AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB726013BACFAF008225AF /* AudioToolbox.framework */; };
 		68FF1636130C3FE4002014C4 /* RZRadioGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF1635130C3FE4002014C4 /* RZRadioGenre.m */; };
+		CB52878E150A66C00099414C /* RZPlayStationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC059A13363A5C0049078B /* RZPlayStationOperation.m */; };
+		CB528790150A66DE0099414C /* RZRadioGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF1635130C3FE4002014C4 /* RZRadioGenre.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -548,6 +550,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB528790150A66DE0099414C /* RZRadioGenre.m in Sources */,
+				CB52878E150A66C00099414C /* RZPlayStationOperation.m in Sources */,
 				68AC807E12E9E9D900424E7A /* RZShoutcastAPI.m in Sources */,
 				68A2764E12EEE25B00341808 /* RZRadioPlayer.m in Sources */,
 				68A2765C12EEE29F00341808 /* RZShoutcastStation.m in Sources */,
