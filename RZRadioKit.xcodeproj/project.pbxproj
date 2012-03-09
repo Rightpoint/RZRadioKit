@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681AC02612F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 681AC02412F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h */; };
+		681AC02712F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */; };
+		681AC02812F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 681AC02412F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h */; };
+		681AC02912F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */; };
+		685BDD3A12F2E462008B8973 /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 685BDD3812F2E462008B8973 /* AudioStreamer.h */; };
+		685BDD3B12F2E462008B8973 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685BDD3912F2E462008B8973 /* AudioStreamer.m */; };
+		685BDD3C12F2E462008B8973 /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 685BDD3812F2E462008B8973 /* AudioStreamer.h */; };
+		685BDD3D12F2E462008B8973 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685BDD3912F2E462008B8973 /* AudioStreamer.m */; };
+		685F3A6712F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */; };
+		685F3A6812F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		685F3A7312F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A7212F7615E00C96819 /* RZRadioPlayerErrors.h */; };
+		685F3A7412F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A7212F7615E00C96819 /* RZRadioPlayerErrors.h */; };
+		685F3C7112F7C3DD00C96819 /* RZRadioStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3C6F12F7C3DD00C96819 /* RZRadioStation.h */; };
+		685F3C7212F7C3DD00C96819 /* RZRadioStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F3C7012F7C3DD00C96819 /* RZRadioStation.m */; };
+		685F3C7312F7C3DD00C96819 /* RZRadioStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3C6F12F7C3DD00C96819 /* RZRadioStation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		685F3C7412F7C3DD00C96819 /* RZRadioStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F3C7012F7C3DD00C96819 /* RZRadioStation.m */; };
+		685F3CE412F8593300C96819 /* RZRadioCustomStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3CE212F8593300C96819 /* RZRadioCustomStation.h */; };
+		685F3CE512F8593300C96819 /* RZRadioCustomStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F3CE312F8593300C96819 /* RZRadioCustomStation.m */; };
+		685F3CE612F8593300C96819 /* RZRadioCustomStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3CE212F8593300C96819 /* RZRadioCustomStation.h */; };
+		685F3CE712F8593300C96819 /* RZRadioCustomStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 685F3CE312F8593300C96819 /* RZRadioCustomStation.m */; };
+		688A53C212EA8CA80011CF27 /* RZShoutcast.h in Headers */ = {isa = PBXBuildFile; fileRef = 688A53C012EA8CA80011CF27 /* RZShoutcast.h */; settings = {ATTRIBUTES = (); }; };
+		688A53C312EA8CA80011CF27 /* RZShoutcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 688A53C112EA8CA80011CF27 /* RZShoutcast.m */; };
+		68A2764B12EEE25B00341808 /* RZRadioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2764912EEE25B00341808 /* RZRadioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A2764C12EEE25B00341808 /* RZRadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2764A12EEE25B00341808 /* RZRadioPlayer.m */; };
+		68A2764D12EEE25B00341808 /* RZRadioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2764912EEE25B00341808 /* RZRadioPlayer.h */; };
+		68A2764E12EEE25B00341808 /* RZRadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2764A12EEE25B00341808 /* RZRadioPlayer.m */; };
+		68A2765912EEE29F00341808 /* RZShoutcastStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2765712EEE29F00341808 /* RZShoutcastStation.h */; settings = {ATTRIBUTES = (); }; };
+		68A2765A12EEE29F00341808 /* RZShoutcastStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2765812EEE29F00341808 /* RZShoutcastStation.m */; };
+		68A2765B12EEE29F00341808 /* RZShoutcastStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2765712EEE29F00341808 /* RZShoutcastStation.h */; };
+		68A2765C12EEE29F00341808 /* RZShoutcastStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2765812EEE29F00341808 /* RZShoutcastStation.m */; };
+		68A2765F12EEE35000341808 /* RZShoutcastGenre.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2765D12EEE35000341808 /* RZShoutcastGenre.h */; settings = {ATTRIBUTES = (); }; };
+		68A2766012EEE35000341808 /* RZShoutcastGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2765E12EEE35000341808 /* RZShoutcastGenre.m */; };
+		68A2766112EEE35000341808 /* RZShoutcastGenre.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2765D12EEE35000341808 /* RZShoutcastGenre.h */; };
+		68A2766212EEE35000341808 /* RZShoutcastGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2765E12EEE35000341808 /* RZShoutcastGenre.m */; };
+		68A276A212EEE7FA00341808 /* RZShoutcastTestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A276A112EEE7FA00341808 /* RZShoutcastTestCases.m */; };
+		68A276A512EEE80F00341808 /* RZRadioPlayerTestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A276A412EEE80F00341808 /* RZRadioPlayerTestCases.m */; };
+		68A277C012EEFED700341808 /* RZShoutcastGenreParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2777012EEF8DB00341808 /* RZShoutcastGenreParser.m */; };
+		68A277C112EEFED700341808 /* RZShoutcastGenreParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2777012EEF8DB00341808 /* RZShoutcastGenreParser.m */; };
+		68A277C212EEFEE100341808 /* RZShoutcastGenreParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2776F12EEF8DB00341808 /* RZShoutcastGenreParser.h */; };
+		68A277C312EEFEE200341808 /* RZShoutcastGenreParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2776F12EEF8DB00341808 /* RZShoutcastGenreParser.h */; };
+		68A277C612EEFEF900341808 /* RZShoutcast.h in Headers */ = {isa = PBXBuildFile; fileRef = 688A53C012EA8CA80011CF27 /* RZShoutcast.h */; };
+		68A277C712EEFF0100341808 /* RZShoutcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 688A53C112EA8CA80011CF27 /* RZShoutcast.m */; };
+		68A2781312EF02E100341808 /* RZShoutcastStationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2781112EF02E100341808 /* RZShoutcastStationParser.h */; };
+		68A2781412EF02E100341808 /* RZShoutcastStationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2781212EF02E100341808 /* RZShoutcastStationParser.m */; };
+		68A2781512EF02E100341808 /* RZShoutcastStationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2781112EF02E100341808 /* RZShoutcastStationParser.h */; };
+		68A2781612EF02E100341808 /* RZShoutcastStationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2781212EF02E100341808 /* RZShoutcastStationParser.m */; };
+		68AC059B13363A5C0049078B /* RZPlayStationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AC059913363A5C0049078B /* RZPlayStationOperation.h */; };
+		68AC059C13363A5C0049078B /* RZPlayStationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC059A13363A5C0049078B /* RZPlayStationOperation.m */; };
+		68AC807B12E9E9D900424E7A /* RZShoutcastAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AC807912E9E9D900424E7A /* RZShoutcastAPI.h */; settings = {ATTRIBUTES = (); }; };
+		68AC807C12E9E9D900424E7A /* RZShoutcastAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC807A12E9E9D900424E7A /* RZShoutcastAPI.m */; };
+		68AC807D12E9E9D900424E7A /* RZShoutcastAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AC807912E9E9D900424E7A /* RZShoutcastAPI.h */; };
+		68AC807E12E9E9D900424E7A /* RZShoutcastAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC807A12E9E9D900424E7A /* RZShoutcastAPI.m */; };
+		68AC809912E9EF9C00424E7A /* RZRadioKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AC809812E9EF9C00424E7A /* RZRadioKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68AC80AA12E9F14900424E7A /* RZRadioKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AC809812E9EF9C00424E7A /* RZRadioKit.h */; };
+		68AC823912EA26F400424E7A /* RZRadioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B1679612E8CB3A008AD878 /* RZRadioKit.framework */; };
+		68AC823C12EA270300424E7A /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AC818A12EA222C00424E7A /* GHUnit.framework */; };
+		68AC823D12EA270C00424E7A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AC81F412EA25B400424E7A /* SenTestingKit.framework */; };
+		68AC825712EA27CA00424E7A /* GHUnit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 68AC818A12EA222C00424E7A /* GHUnit.framework */; };
+		68AC825A12EA27CD00424E7A /* RZRadioKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 68B1679612E8CB3A008AD878 /* RZRadioKit.framework */; };
+		68AC826D12EA283100424E7A /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC81CC12EA238F00424E7A /* GHUnitTestMain.m */; };
+		68AC829812EA295000424E7A /* SenTestingKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 68AC81F412EA25B400424E7A /* SenTestingKit.framework */; };
+		68B1696812E8CFA7008AD878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B1696712E8CFA7008AD878 /* Foundation.framework */; };
+		68B169EF12E8D063008AD878 /* Prefix-iOS.pch in Headers */ = {isa = PBXBuildFile; fileRef = 68B169EE12E8D063008AD878 /* Prefix-iOS.pch */; };
+		68B8E34F12F095AC0018A3B1 /* RZRadioGenre.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B8E34E12F095AC0018A3B1 /* RZRadioGenre.h */; };
+		68B8E35012F095AC0018A3B1 /* RZRadioGenre.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B8E34E12F095AC0018A3B1 /* RZRadioGenre.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B8E3D912F0A32F0018A3B1 /* RZShoutcastParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B8E3D812F0A32F0018A3B1 /* RZShoutcastParserDelegate.h */; };
+		68B8E3DA12F0A32F0018A3B1 /* RZShoutcastParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B8E3D812F0A32F0018A3B1 /* RZShoutcastParserDelegate.h */; };
+		68B92ECE12EA2CE200621B71 /* RZShoutcastAPITestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B92ECD12EA2CE200621B71 /* RZShoutcastAPITestCases.m */; };
+		68BB726113BACFAF008225AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB726013BACFAF008225AF /* AudioToolbox.framework */; };
+		68FF1636130C3FE4002014C4 /* RZRadioGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF1635130C3FE4002014C4 /* RZRadioGenre.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68AC823712EA26EF00424E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B1679512E8CB3A008AD878;
+			remoteInfo = RZRadioKit.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68AC826612EA27D500424E7A /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				68AC829812EA295000424E7A /* SenTestingKit.framework in Copy Frameworks */,
+				68AC825A12EA27CD00424E7A /* RZRadioKit.framework in Copy Frameworks */,
+				68AC825712EA27CA00424E7A /* GHUnit.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		681AC02412F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastStationPlaylistParser.h; sourceTree = "<group>"; };
+		681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastStationPlaylistParser.m; sourceTree = "<group>"; };
+		685BDD3812F2E462008B8973 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		685BDD3912F2E462008B8973 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioPlayerDelegate.h; sourceTree = "<group>"; };
+		685F3A7212F7615E00C96819 /* RZRadioPlayerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioPlayerErrors.h; sourceTree = "<group>"; };
+		685F3C6F12F7C3DD00C96819 /* RZRadioStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioStation.h; sourceTree = "<group>"; };
+		685F3C7012F7C3DD00C96819 /* RZRadioStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRadioStation.m; sourceTree = "<group>"; };
+		685F3CE212F8593300C96819 /* RZRadioCustomStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioCustomStation.h; sourceTree = "<group>"; };
+		685F3CE312F8593300C96819 /* RZRadioCustomStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRadioCustomStation.m; sourceTree = "<group>"; };
+		688A53C012EA8CA80011CF27 /* RZShoutcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcast.h; sourceTree = "<group>"; };
+		688A53C112EA8CA80011CF27 /* RZShoutcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcast.m; sourceTree = "<group>"; };
+		68A2764912EEE25B00341808 /* RZRadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioPlayer.h; sourceTree = "<group>"; };
+		68A2764A12EEE25B00341808 /* RZRadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRadioPlayer.m; sourceTree = "<group>"; };
+		68A2765712EEE29F00341808 /* RZShoutcastStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastStation.h; sourceTree = "<group>"; };
+		68A2765812EEE29F00341808 /* RZShoutcastStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastStation.m; sourceTree = "<group>"; };
+		68A2765D12EEE35000341808 /* RZShoutcastGenre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastGenre.h; sourceTree = "<group>"; };
+		68A2765E12EEE35000341808 /* RZShoutcastGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastGenre.m; sourceTree = "<group>"; };
+		68A276A012EEE7FA00341808 /* RZShoutcastTestCases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastTestCases.h; sourceTree = "<group>"; };
+		68A276A112EEE7FA00341808 /* RZShoutcastTestCases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastTestCases.m; sourceTree = "<group>"; };
+		68A276A312EEE80F00341808 /* RZRadioPlayerTestCases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioPlayerTestCases.h; sourceTree = "<group>"; };
+		68A276A412EEE80F00341808 /* RZRadioPlayerTestCases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRadioPlayerTestCases.m; sourceTree = "<group>"; };
+		68A2776F12EEF8DB00341808 /* RZShoutcastGenreParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastGenreParser.h; sourceTree = "<group>"; };
+		68A2777012EEF8DB00341808 /* RZShoutcastGenreParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastGenreParser.m; sourceTree = "<group>"; };
+		68A2781112EF02E100341808 /* RZShoutcastStationParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastStationParser.h; sourceTree = "<group>"; };
+		68A2781212EF02E100341808 /* RZShoutcastStationParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastStationParser.m; sourceTree = "<group>"; };
+		68AC059913363A5C0049078B /* RZPlayStationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZPlayStationOperation.h; sourceTree = "<group>"; };
+		68AC059A13363A5C0049078B /* RZPlayStationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZPlayStationOperation.m; sourceTree = "<group>"; };
+		68AC807912E9E9D900424E7A /* RZShoutcastAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastAPI.h; sourceTree = "<group>"; };
+		68AC807A12E9E9D900424E7A /* RZShoutcastAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastAPI.m; sourceTree = "<group>"; };
+		68AC809812E9EF9C00424E7A /* RZRadioKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioKit.h; sourceTree = "<group>"; };
+		68AC818A12EA222C00424E7A /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = Frameworks/GHUnit.framework; sourceTree = "<group>"; };
+		68AC81CC12EA238F00424E7A /* GHUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestMain.m; sourceTree = "<group>"; };
+		68AC81F412EA25B400424E7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		68AC822B12EA26E500424E7A /* FrameworkTestCases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkTestCases.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AC822D12EA26E500424E7A /* FrameworkTestCases-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FrameworkTestCases-Info.plist"; sourceTree = "<group>"; };
+		68B1679612E8CB3A008AD878 /* RZRadioKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RZRadioKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B1679712E8CB3A008AD878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B1679F12E8CB62008AD878 /* libRZRadioKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRZRadioKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B1696712E8CFA7008AD878 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68B169EE12E8D063008AD878 /* Prefix-iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Prefix-iOS.pch"; sourceTree = "<group>"; };
+		68B8E34E12F095AC0018A3B1 /* RZRadioGenre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioGenre.h; sourceTree = "<group>"; };
+		68B8E3D812F0A32F0018A3B1 /* RZShoutcastParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastParserDelegate.h; sourceTree = "<group>"; };
+		68B92ECC12EA2CE200621B71 /* RZShoutcastAPITestCases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastAPITestCases.h; sourceTree = "<group>"; };
+		68B92ECD12EA2CE200621B71 /* RZShoutcastAPITestCases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastAPITestCases.m; sourceTree = "<group>"; };
+		68BB726013BACFAF008225AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		68FF1635130C3FE4002014C4 /* RZRadioGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRadioGenre.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68AC822912EA26E500424E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AC823C12EA270300424E7A /* GHUnit.framework in Frameworks */,
+				68AC823912EA26F400424E7A /* RZRadioKit.framework in Frameworks */,
+				68AC823D12EA270C00424E7A /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B1679412E8CB3A008AD878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BB726113BACFAF008225AF /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B1679D12E8CB62008AD878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B1696812E8CFA7008AD878 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B1679612E8CB3A008AD878 /* RZRadioKit.framework */,
+				68B1679F12E8CB62008AD878 /* libRZRadioKit.a */,
+				68AC822B12EA26E500424E7A /* FrameworkTestCases.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* RZRadioKit */ = {
+			isa = PBXGroup;
+			children = (
+				68AC809712E9EF9C00424E7A /* RZRadioKit */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				68AC811812EA168700424E7A /* UnitTests */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				68B1679712E8CB3A008AD878 /* Info.plist */,
+				68AC822D12EA26E500424E7A /* FrameworkTestCases-Info.plist */,
+			);
+			name = RZRadioKit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				68B169EB12E8CFC4008AD878 /* OS X Frameworks */,
+				68B169EA12E8CFB6008AD878 /* iOS Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68A2764912EEE25B00341808 /* RZRadioPlayer.h */,
+				68A2764A12EEE25B00341808 /* RZRadioPlayer.m */,
+				685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */,
+				685F3A7212F7615E00C96819 /* RZRadioPlayerErrors.h */,
+				68AC059913363A5C0049078B /* RZPlayStationOperation.h */,
+				68AC059A13363A5C0049078B /* RZPlayStationOperation.m */,
+				685BDD3712F2E462008B8973 /* AudioStreamer */,
+				68A2765612EEE28000341808 /* Models */,
+				68AC807812E9E9D900424E7A /* Shoutcast */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BB726013BACFAF008225AF /* AudioToolbox.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68AC81F412EA25B400424E7A /* SenTestingKit.framework */,
+				68AC818A12EA222C00424E7A /* GHUnit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* Prefix.pch */,
+				68B169EE12E8D063008AD878 /* Prefix-iOS.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		685BDD3712F2E462008B8973 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				685BDD3812F2E462008B8973 /* AudioStreamer.h */,
+				685BDD3912F2E462008B8973 /* AudioStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
+		68A2765612EEE28000341808 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68B8E34E12F095AC0018A3B1 /* RZRadioGenre.h */,
+				68FF1635130C3FE4002014C4 /* RZRadioGenre.m */,
+				68A2765D12EEE35000341808 /* RZShoutcastGenre.h */,
+				68A2765E12EEE35000341808 /* RZShoutcastGenre.m */,
+				685F3C6F12F7C3DD00C96819 /* RZRadioStation.h */,
+				685F3C7012F7C3DD00C96819 /* RZRadioStation.m */,
+				685F3CE212F8593300C96819 /* RZRadioCustomStation.h */,
+				685F3CE312F8593300C96819 /* RZRadioCustomStation.m */,
+				68A2765712EEE29F00341808 /* RZShoutcastStation.h */,
+				68A2765812EEE29F00341808 /* RZShoutcastStation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68AC807812E9E9D900424E7A /* Shoutcast */ = {
+			isa = PBXGroup;
+			children = (
+				68AC807912E9E9D900424E7A /* RZShoutcastAPI.h */,
+				68AC807A12E9E9D900424E7A /* RZShoutcastAPI.m */,
+				688A53C012EA8CA80011CF27 /* RZShoutcast.h */,
+				688A53C112EA8CA80011CF27 /* RZShoutcast.m */,
+				68B8E3D812F0A32F0018A3B1 /* RZShoutcastParserDelegate.h */,
+				68A2776F12EEF8DB00341808 /* RZShoutcastGenreParser.h */,
+				68A2777012EEF8DB00341808 /* RZShoutcastGenreParser.m */,
+				68A2781112EF02E100341808 /* RZShoutcastStationParser.h */,
+				68A2781212EF02E100341808 /* RZShoutcastStationParser.m */,
+				681AC02412F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h */,
+				681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */,
+			);
+			path = Shoutcast;
+			sourceTree = "<group>";
+		};
+		68AC809712E9EF9C00424E7A /* RZRadioKit */ = {
+			isa = PBXGroup;
+			children = (
+				68AC809812E9EF9C00424E7A /* RZRadioKit.h */,
+			);
+			path = RZRadioKit;
+			sourceTree = "<group>";
+		};
+		68AC811812EA168700424E7A /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				68AC81CC12EA238F00424E7A /* GHUnitTestMain.m */,
+				68B92ECB12EA2CE200621B71 /* Shoutcast */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		68B169EA12E8CFB6008AD878 /* iOS Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B1696712E8CFA7008AD878 /* Foundation.framework */,
+			);
+			name = "iOS Frameworks";
+			sourceTree = "<group>";
+		};
+		68B169EB12E8CFC4008AD878 /* OS X Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "OS X Frameworks";
+			sourceTree = "<group>";
+		};
+		68B92ECB12EA2CE200621B71 /* Shoutcast */ = {
+			isa = PBXGroup;
+			children = (
+				68B92ECC12EA2CE200621B71 /* RZShoutcastAPITestCases.h */,
+				68B92ECD12EA2CE200621B71 /* RZShoutcastAPITestCases.m */,
+				68A276A012EEE7FA00341808 /* RZShoutcastTestCases.h */,
+				68A276A112EEE7FA00341808 /* RZShoutcastTestCases.m */,
+				68A276A312EEE80F00341808 /* RZRadioPlayerTestCases.h */,
+				68A276A412EEE80F00341808 /* RZRadioPlayerTestCases.m */,
+			);
+			path = Shoutcast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68B1679112E8CB3A008AD878 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B169EF12E8D063008AD878 /* Prefix-iOS.pch in Headers */,
+				68AC807B12E9E9D900424E7A /* RZShoutcastAPI.h in Headers */,
+				68AC809912E9EF9C00424E7A /* RZRadioKit.h in Headers */,
+				688A53C212EA8CA80011CF27 /* RZShoutcast.h in Headers */,
+				68A2764B12EEE25B00341808 /* RZRadioPlayer.h in Headers */,
+				68A2765912EEE29F00341808 /* RZShoutcastStation.h in Headers */,
+				68A2765F12EEE35000341808 /* RZShoutcastGenre.h in Headers */,
+				68A277C212EEFEE100341808 /* RZShoutcastGenreParser.h in Headers */,
+				68A2781312EF02E100341808 /* RZShoutcastStationParser.h in Headers */,
+				68B8E35012F095AC0018A3B1 /* RZRadioGenre.h in Headers */,
+				68B8E3DA12F0A32F0018A3B1 /* RZShoutcastParserDelegate.h in Headers */,
+				685BDD3C12F2E462008B8973 /* AudioStreamer.h in Headers */,
+				681AC02812F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */,
+				685F3A6812F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */,
+				685F3A7412F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */,
+				685F3C7312F7C3DD00C96819 /* RZRadioStation.h in Headers */,
+				685F3CE612F8593300C96819 /* RZRadioCustomStation.h in Headers */,
+				68AC059B13363A5C0049078B /* RZPlayStationOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B1679B12E8CB62008AD878 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AC807D12E9E9D900424E7A /* RZShoutcastAPI.h in Headers */,
+				68AC80AA12E9F14900424E7A /* RZRadioKit.h in Headers */,
+				68A2764D12EEE25B00341808 /* RZRadioPlayer.h in Headers */,
+				68A2765B12EEE29F00341808 /* RZShoutcastStation.h in Headers */,
+				68A2766112EEE35000341808 /* RZShoutcastGenre.h in Headers */,
+				68A277C312EEFEE200341808 /* RZShoutcastGenreParser.h in Headers */,
+				68A277C612EEFEF900341808 /* RZShoutcast.h in Headers */,
+				68A2781512EF02E100341808 /* RZShoutcastStationParser.h in Headers */,
+				68B8E34F12F095AC0018A3B1 /* RZRadioGenre.h in Headers */,
+				68B8E3D912F0A32F0018A3B1 /* RZShoutcastParserDelegate.h in Headers */,
+				685BDD3A12F2E462008B8973 /* AudioStreamer.h in Headers */,
+				681AC02612F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */,
+				685F3A6712F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */,
+				685F3A7312F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */,
+				685F3C7112F7C3DD00C96819 /* RZRadioStation.h in Headers */,
+				685F3CE412F8593300C96819 /* RZRadioCustomStation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68AC822A12EA26E500424E7A /* FrameworkTestCases */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AC823612EA26E600424E7A /* Build configuration list for PBXNativeTarget "FrameworkTestCases" */;
+			buildPhases = (
+				68AC826612EA27D500424E7A /* Copy Frameworks */,
+				68AC822712EA26E500424E7A /* Resources */,
+				68AC822812EA26E500424E7A /* Sources */,
+				68AC822912EA26E500424E7A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68AC823812EA26EF00424E7A /* PBXTargetDependency */,
+			);
+			name = FrameworkTestCases;
+			productName = FrameworkTestCases;
+			productReference = 68AC822B12EA26E500424E7A /* FrameworkTestCases.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B1679512E8CB3A008AD878 /* RZRadioKit.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B1679A12E8CB3A008AD878 /* Build configuration list for PBXNativeTarget "RZRadioKit.framework" */;
+			buildPhases = (
+				68B1679112E8CB3A008AD878 /* Headers */,
+				68B1679212E8CB3A008AD878 /* Resources */,
+				68B1679312E8CB3A008AD878 /* Sources */,
+				68B1679412E8CB3A008AD878 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZRadioKit.framework;
+			productName = RZRadioKitFramework;
+			productReference = 68B1679612E8CB3A008AD878 /* RZRadioKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68B1679E12E8CB62008AD878 /* RZRadioKit.library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B167A212E8CB82008AD878 /* Build configuration list for PBXNativeTarget "RZRadioKit.library" */;
+			buildPhases = (
+				68B1679B12E8CB62008AD878 /* Headers */,
+				68B1679C12E8CB62008AD878 /* Sources */,
+				68B1679D12E8CB62008AD878 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZRadioKit.library;
+			productName = RZRadioKitLib;
+			productReference = 68B1679F12E8CB62008AD878 /* libRZRadioKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Raizlabs;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "RZRadioKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* RZRadioKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B1679512E8CB3A008AD878 /* RZRadioKit.framework */,
+				68B1679E12E8CB62008AD878 /* RZRadioKit.library */,
+				68AC822A12EA26E500424E7A /* FrameworkTestCases */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68AC822712EA26E500424E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B1679212E8CB3A008AD878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68AC822812EA26E500424E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AC826D12EA283100424E7A /* GHUnitTestMain.m in Sources */,
+				68B92ECE12EA2CE200621B71 /* RZShoutcastAPITestCases.m in Sources */,
+				68A276A212EEE7FA00341808 /* RZShoutcastTestCases.m in Sources */,
+				68A276A512EEE80F00341808 /* RZRadioPlayerTestCases.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B1679312E8CB3A008AD878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AC807C12E9E9D900424E7A /* RZShoutcastAPI.m in Sources */,
+				688A53C312EA8CA80011CF27 /* RZShoutcast.m in Sources */,
+				68A2764C12EEE25B00341808 /* RZRadioPlayer.m in Sources */,
+				68A2765A12EEE29F00341808 /* RZShoutcastStation.m in Sources */,
+				68A2766012EEE35000341808 /* RZShoutcastGenre.m in Sources */,
+				68A277C112EEFED700341808 /* RZShoutcastGenreParser.m in Sources */,
+				68A2781412EF02E100341808 /* RZShoutcastStationParser.m in Sources */,
+				685BDD3D12F2E462008B8973 /* AudioStreamer.m in Sources */,
+				681AC02912F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */,
+				685F3C7412F7C3DD00C96819 /* RZRadioStation.m in Sources */,
+				685F3CE712F8593300C96819 /* RZRadioCustomStation.m in Sources */,
+				68FF1636130C3FE4002014C4 /* RZRadioGenre.m in Sources */,
+				68AC059C13363A5C0049078B /* RZPlayStationOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B1679C12E8CB62008AD878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AC807E12E9E9D900424E7A /* RZShoutcastAPI.m in Sources */,
+				68A2764E12EEE25B00341808 /* RZRadioPlayer.m in Sources */,
+				68A2765C12EEE29F00341808 /* RZShoutcastStation.m in Sources */,
+				68A2766212EEE35000341808 /* RZShoutcastGenre.m in Sources */,
+				68A277C012EEFED700341808 /* RZShoutcastGenreParser.m in Sources */,
+				68A277C712EEFF0100341808 /* RZShoutcast.m in Sources */,
+				68A2781612EF02E100341808 /* RZShoutcastStationParser.m in Sources */,
+				685BDD3B12F2E462008B8973 /* AudioStreamer.m in Sources */,
+				681AC02712F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */,
+				685F3C7212F7C3DD00C96819 /* RZRadioStation.m in Sources */,
+				685F3CE512F8593300C96819 /* RZRadioCustomStation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68AC823812EA26EF00424E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B1679512E8CB3A008AD878 /* RZRadioKit.framework */;
+			targetProxy = 68AC823712EA26EF00424E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		68AC823112EA26E600424E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = "FrameworkTestCases-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FrameworkTestCases;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		68AC823212EA26E600424E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = "FrameworkTestCases-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FrameworkTestCases;
+				VALID_ARCHS = "i386 x86_64";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		68B1679812E8CB3A008AD878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-D",
+					"DEBUG=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D",
+					"DEBUG=1",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RZRadioKit;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		68B1679912E8CB3A008AD878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RZRadioKit;
+				VALID_ARCHS = "i386 x86_64";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		68B167A012E8CB62008AD878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prefix-iOS.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-D",
+					"DEBUG=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D",
+					"DEBUG=1",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RZRadioKit;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68B167A112E8CB62008AD878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prefix-iOS.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = RZRadioKit;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "RZRadioKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68AC823612EA26E600424E7A /* Build configuration list for PBXNativeTarget "FrameworkTestCases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AC823112EA26E600424E7A /* Debug */,
+				68AC823212EA26E600424E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B1679A12E8CB3A008AD878 /* Build configuration list for PBXNativeTarget "RZRadioKit.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B1679812E8CB3A008AD878 /* Debug */,
+				68B1679912E8CB3A008AD878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B167A212E8CB82008AD878 /* Build configuration list for PBXNativeTarget "RZRadioKit.library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B167A012E8CB62008AD878 /* Debug */,
+				68B167A112E8CB62008AD878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
