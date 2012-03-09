@@ -8,6 +8,7 @@
 
 #import "RZShoutcastGenre.h"
 #import "RZShoutcast.h"
+#import "RZRadioStation.h"
 
 @interface RZShoutcastGenre ()
 - (void)fetchChildrenGenres;
@@ -96,7 +97,7 @@
    }
    
    NSArray *genreStations = [self fetchGenreStations];
-   stations_ = [[NSArray alloc] initWithArray:genreStations];
+   stations_ = [[NSMutableArray alloc] initWithArray:genreStations];
    return stations_;
 }
 
@@ -109,6 +110,26 @@
    [shoutcast release];
    
    return genreStations;
+}
+
+-(void) requestStationsWithDelegate:(id<RZRadioStationsDelegate>)delegate
+{
+    if (stations_ && [stations_ count] > 0) {
+        [delegate stationsReceived:stations_ forGenre:self];
+    }
+    else {
+        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0);
+        dispatch_async(queue, ^{
+            NSArray* stations = [self fetchGenreStations];
+            if (nil != stations) {
+                stations_ = [[NSMutableArray alloc] initWithArray:stations];
+            }
+            
+            [delegate stationsReceived:stations_ forGenre:self];
+        });
+    }
+
+    
 }
 
 @end

@@ -8,11 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol RZRadioGenreDelegate <NSObject>
-
--(void) genresReceived:(NSArray*)genres;
-
-@end
+@protocol RZRadioStationsDelegate;
 
 @interface RZRadioGenre : NSObject 
 {
@@ -33,5 +29,13 @@
 
 - (BOOL) hasStations;
 - (NSMutableArray *)stations;
+
+-(void) requestStationsWithDelegate:(id<RZRadioStationsDelegate>)delegate;
+
+@end
+
+@protocol RZRadioGenreDelegate <NSObject>
+
+-(void) genresRecevied:(NSArray*)genres forParentGenre:(RZRadioGenre*)parentGenre;
 
 @end

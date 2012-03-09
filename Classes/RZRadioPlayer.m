@@ -444,17 +444,17 @@ NSString * const kRZRadioPlayerNotificationStateChanged = @"RZRadioPlayerStateCh
 -(void) requestGenresWithDelegate:(id<RZRadioGenreDelegate>)delegate
 {
     if (genres_ && [genres_ count] > 0) {
-        [delegate genresReceived:genres_];
+        [delegate genresRecevied:genres_ forParentGenre:nil];
     }
     else {
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0);
         dispatch_async(queue, ^{
             NSArray* genres = self.genres; 
             if (genres && [genres count] > 0) {
-                [delegate genresReceived:genres];
+                [delegate genresRecevied:genres forParentGenre:nil];
             }
             else {
-                [delegate genresReceived:nil];
+                [delegate genresRecevied:nil forParentGenre:nil];
             }
         });
    }

@@ -38,3 +38,10 @@
 + (id)stationWithDictionary:(NSDictionary *)dict;
 
 @end
+
+@class RZRadioGenre;
+@protocol RZRadioStationsDelegate <NSObject>
+
+-(void) stationsReceived:(NSArray*)stations forGenre:(RZRadioGenre*)genre;
+
+@end

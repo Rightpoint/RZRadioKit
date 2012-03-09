@@ -7,6 +7,7 @@
 //
 
 #import "RZRadioGenre.h"
+#import "RZRadioStation.h"
 
 @implementation RZRadioGenre
 
@@ -43,5 +44,11 @@
 {
    return [NSMutableArray array];
 }
+
+-(void) requestStationsWithDelegate:(id<RZRadioStationsDelegate>)delegate
+{
+    [delegate stationsReceived:self.stations forGenre:self];
+}
+
 
 @end
