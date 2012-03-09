@@ -441,6 +441,24 @@ NSString * const kRZRadioPlayerNotificationStateChanged = @"RZRadioPlayerStateCh
    return genres_;
 }
 
+-(void) requestGenresWithDelegate:(id<RZRadioGenreDelegate>)delegate
+{
+    if (genres_ && [genres_ count] > 0) {
+        [delegate genresReceived:genres_];
+    }
+    else {
+        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0);
+        dispatch_async(queue, ^{
+            NSArray* genres = self.genres; 
+            if (genres && [genres count] > 0) {
+                [delegate genresReceived:genres];
+            }
+            else {
+                [delegate genresReceived:nil];
+            }
+        });
+   }
+}
 
 #pragma mark -
 #pragma mark AudioStreamer

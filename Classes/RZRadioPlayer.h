@@ -29,6 +29,7 @@ typedef enum
 
 @class RZRadioStation;
 @class AudioStreamer;
+@protocol RZRadioGenreDelegate;
 
 @interface RZRadioPlayer : NSObject 
 {
@@ -75,6 +76,11 @@ typedef enum
  Returns an array of RZRadioGenre.
  */
 - (NSArray *)genres;
+
+/**
+ Requests a genres asynchronously
+ */
+-(void) requestGenresWithDelegate:(id<RZRadioGenreDelegate>)delegate;
 
 /**
  Level Metering

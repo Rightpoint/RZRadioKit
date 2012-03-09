@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol RZRadioGenreDelegate <NSObject>
+
+-(void) genresReceived:(NSArray*)genres;
+
+@end
 
 @interface RZRadioGenre : NSObject 
 {
