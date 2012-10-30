@@ -1,0 +1,3 @@
+[submodule "Classes/AudioStreamer"]
+	path = Classes/AudioStreamer
+	url = git@github.com:Raizlabs/AudioStreamer.git

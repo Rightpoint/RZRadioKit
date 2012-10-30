@@ -199,7 +199,6 @@ NSString * const kRZRadioPlayerNotificationStateChanged = @"RZRadioPlayerStateCh
 {
    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
    [nc addObserver:self selector:@selector(audioStreamerStateChanged:) name:ASStatusChangedNotification object:audioStreamer];
-   [nc addObserver:self selector:@selector(audioStreamerAlertReceived:) name:ASPresentAlertWithTitleNotification object:audioStreamer];
    [nc addObserver:self selector:@selector(audioStreamerMetadataReceived:) name:ASUpdateMetadataNotification object:audioStreamer];
 
    [self setAudioStreamer:audioStreamer];

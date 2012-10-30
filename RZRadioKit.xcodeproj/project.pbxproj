@@ -11,10 +11,6 @@
 		681AC02712F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */; };
 		681AC02812F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 681AC02412F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h */; };
 		681AC02912F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */; };
-		685BDD3A12F2E462008B8973 /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 685BDD3812F2E462008B8973 /* AudioStreamer.h */; };
-		685BDD3B12F2E462008B8973 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685BDD3912F2E462008B8973 /* AudioStreamer.m */; };
-		685BDD3C12F2E462008B8973 /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 685BDD3812F2E462008B8973 /* AudioStreamer.h */; };
-		685BDD3D12F2E462008B8973 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 685BDD3912F2E462008B8973 /* AudioStreamer.m */; };
 		685F3A6712F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */; };
 		685F3A6812F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		685F3A7312F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 685F3A7212F7615E00C96819 /* RZRadioPlayerErrors.h */; };
@@ -77,6 +73,10 @@
 		68B92ECE12EA2CE200621B71 /* RZShoutcastAPITestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B92ECD12EA2CE200621B71 /* RZShoutcastAPITestCases.m */; };
 		68BB726113BACFAF008225AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB726013BACFAF008225AF /* AudioToolbox.framework */; };
 		68FF1636130C3FE4002014C4 /* RZRadioGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF1635130C3FE4002014C4 /* RZRadioGenre.m */; };
+		9A677E0F164040FC0038BB78 /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A677E0D164040FC0038BB78 /* AudioStreamer.h */; };
+		9A677E10164040FC0038BB78 /* AudioStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A677E0D164040FC0038BB78 /* AudioStreamer.h */; };
+		9A677E11164040FC0038BB78 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A677E0E164040FC0038BB78 /* AudioStreamer.m */; };
+		9A677E12164040FC0038BB78 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A677E0E164040FC0038BB78 /* AudioStreamer.m */; };
 		CB52878E150A66C00099414C /* RZPlayStationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC059A13363A5C0049078B /* RZPlayStationOperation.m */; };
 		CB528790150A66DE0099414C /* RZRadioGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF1635130C3FE4002014C4 /* RZRadioGenre.m */; };
 /* End PBXBuildFile section */
@@ -113,8 +113,6 @@
 		32DBCF5E0370ADEE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		681AC02412F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZShoutcastStationPlaylistParser.h; sourceTree = "<group>"; };
 		681AC02512F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastStationPlaylistParser.m; sourceTree = "<group>"; };
-		685BDD3812F2E462008B8973 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
-		685BDD3912F2E462008B8973 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
 		685F3A6612F75D4400C96819 /* RZRadioPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioPlayerDelegate.h; sourceTree = "<group>"; };
 		685F3A7212F7615E00C96819 /* RZRadioPlayerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioPlayerErrors.h; sourceTree = "<group>"; };
 		685F3C6F12F7C3DD00C96819 /* RZRadioStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZRadioStation.h; sourceTree = "<group>"; };
@@ -158,6 +156,8 @@
 		68B92ECD12EA2CE200621B71 /* RZShoutcastAPITestCases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZShoutcastAPITestCases.m; sourceTree = "<group>"; };
 		68BB726013BACFAF008225AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		68FF1635130C3FE4002014C4 /* RZRadioGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZRadioGenre.m; sourceTree = "<group>"; };
+		9A677E0D164040FC0038BB78 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioStreamer.h; path = Classes/AudioStreamer.h; sourceTree = "<group>"; };
+		9A677E0E164040FC0038BB78 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioStreamer.m; path = Classes/AudioStreamer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,8 +271,8 @@
 		685BDD3712F2E462008B8973 /* AudioStreamer */ = {
 			isa = PBXGroup;
 			children = (
-				685BDD3812F2E462008B8973 /* AudioStreamer.h */,
-				685BDD3912F2E462008B8973 /* AudioStreamer.m */,
+				9A677E0D164040FC0038BB78 /* AudioStreamer.h */,
+				9A677E0E164040FC0038BB78 /* AudioStreamer.m */,
 			);
 			path = AudioStreamer;
 			sourceTree = "<group>";
@@ -377,13 +377,13 @@
 				68A2781312EF02E100341808 /* RZShoutcastStationParser.h in Headers */,
 				68B8E35012F095AC0018A3B1 /* RZRadioGenre.h in Headers */,
 				68B8E3DA12F0A32F0018A3B1 /* RZShoutcastParserDelegate.h in Headers */,
-				685BDD3C12F2E462008B8973 /* AudioStreamer.h in Headers */,
 				681AC02812F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */,
 				685F3A6812F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */,
 				685F3A7412F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */,
 				685F3C7312F7C3DD00C96819 /* RZRadioStation.h in Headers */,
 				685F3CE612F8593300C96819 /* RZRadioCustomStation.h in Headers */,
 				68AC059B13363A5C0049078B /* RZPlayStationOperation.h in Headers */,
+				9A677E0F164040FC0038BB78 /* AudioStreamer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,12 +401,12 @@
 				68A2781512EF02E100341808 /* RZShoutcastStationParser.h in Headers */,
 				68B8E34F12F095AC0018A3B1 /* RZRadioGenre.h in Headers */,
 				68B8E3D912F0A32F0018A3B1 /* RZShoutcastParserDelegate.h in Headers */,
-				685BDD3A12F2E462008B8973 /* AudioStreamer.h in Headers */,
 				681AC02612F4BAD3007486DA /* RZShoutcastStationPlaylistParser.h in Headers */,
 				685F3A6712F75D4400C96819 /* RZRadioPlayerDelegate.h in Headers */,
 				685F3A7312F7615E00C96819 /* RZRadioPlayerErrors.h in Headers */,
 				685F3C7112F7C3DD00C96819 /* RZRadioStation.h in Headers */,
 				685F3CE412F8593300C96819 /* RZRadioCustomStation.h in Headers */,
+				9A677E10164040FC0038BB78 /* AudioStreamer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,12 +537,12 @@
 				68A2766012EEE35000341808 /* RZShoutcastGenre.m in Sources */,
 				68A277C112EEFED700341808 /* RZShoutcastGenreParser.m in Sources */,
 				68A2781412EF02E100341808 /* RZShoutcastStationParser.m in Sources */,
-				685BDD3D12F2E462008B8973 /* AudioStreamer.m in Sources */,
 				681AC02912F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */,
 				685F3C7412F7C3DD00C96819 /* RZRadioStation.m in Sources */,
 				685F3CE712F8593300C96819 /* RZRadioCustomStation.m in Sources */,
 				68FF1636130C3FE4002014C4 /* RZRadioGenre.m in Sources */,
 				68AC059C13363A5C0049078B /* RZPlayStationOperation.m in Sources */,
+				9A677E11164040FC0038BB78 /* AudioStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,10 +559,10 @@
 				68A277C012EEFED700341808 /* RZShoutcastGenreParser.m in Sources */,
 				68A277C712EEFF0100341808 /* RZShoutcast.m in Sources */,
 				68A2781612EF02E100341808 /* RZShoutcastStationParser.m in Sources */,
-				685BDD3B12F2E462008B8973 /* AudioStreamer.m in Sources */,
 				681AC02712F4BAD3007486DA /* RZShoutcastStationPlaylistParser.m in Sources */,
 				685F3C7212F7C3DD00C96819 /* RZRadioStation.m in Sources */,
 				685F3CE512F8593300C96819 /* RZRadioCustomStation.m in Sources */,
+				9A677E12164040FC0038BB78 /* AudioStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

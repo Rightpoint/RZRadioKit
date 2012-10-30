@@ -64,7 +64,7 @@
    
    if (![self isCancelled] && playlistIndex_ < [playlist count]) {
       NSURL *url = [playlist objectAtIndex:playlistIndex_];
-      AudioStreamer *newStreamer = [[[AudioStreamer alloc] initWithURL:url andMediaType:[station_ mediaType]] autorelease];
+      AudioStreamer *newStreamer = [[[AudioStreamer alloc] initWithURL:url] autorelease];
       [newStreamer setRetrieveShoutcastMetaData:YES];
       
       [self startPlaybackOnMainThread:newStreamer];
