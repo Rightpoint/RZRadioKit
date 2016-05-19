@@ -1,4 +1,5 @@
-## Important Notice
-This repository is slated for deletion, perhaps as soon as June 1, 2016.  Please find other solutions.  
-There will be no future updates or support. 
-
+## Important Notice		
+		
+This repository is slated for deletion.  Please find other solutions.		
+		
+Questions?  Email rzopensource@raizlabs.com		
